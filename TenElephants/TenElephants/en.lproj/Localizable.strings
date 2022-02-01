@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  TenElephants
+
+  Created by Алексей Шерстнёв on 01.02.2022.
+  
+*/
+
+/* Tab names */
+"Trends" = "Trends";
+"Search" = "Search";
+"Ingredients" = "Ingredients";
+"Random" = "Random";
+"Favourites" = "Favourites";
