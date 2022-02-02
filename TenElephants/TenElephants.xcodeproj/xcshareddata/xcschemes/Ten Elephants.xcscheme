@@ -38,6 +38,16 @@
                ReferencedContainer = "container:TenElephants.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4366076C27AA96ED00A467EC"
+               BuildableName = "TenElephantsUITests.xctest"
+               BlueprintName = "TenElephantsUITests"
+               ReferencedContainer = "container:TenElephants.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

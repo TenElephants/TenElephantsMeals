@@ -36,6 +36,8 @@
 		430F42312764BFE3001DE6BB /* MealsDataProviderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430F42302764BFE3001DE6BB /* MealsDataProviderStub.swift */; };
 		430F423927672C45001DE6BB /* PreviewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430F423827672C45001DE6BB /* PreviewCellView.swift */; };
 		430F423B27676FD4001DE6BB /* HeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430F423A27676FD4001DE6BB /* HeaderCollectionView.swift */; };
+		4366077027AA96ED00A467EC /* TenElephantsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366076F27AA96ED00A467EC /* TenElephantsUITests.swift */; };
+		4366077227AA96ED00A467EC /* TenElephantsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366077127AA96ED00A467EC /* TenElephantsUITestsLaunchTests.swift */; };
 		43BEF2842761F68700E42C33 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEF2832761F68700E42C33 /* Meals.swift */; };
 		43BEF286276215C700E42C33 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEF285276215C700E42C33 /* Ingredient.swift */; };
 		43BEF28B27628A5200E42C33 /* GenericCodingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEF28A27628A5200E42C33 /* GenericCodingKeys.swift */; };
@@ -77,6 +79,13 @@
 			remoteGlobalIDString = 1FC26ACB276117B0003B8162;
 			remoteInfo = "Ten Elephants";
 		};
+		4366077327AA96ED00A467EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC26AC4276117B0003B8162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC26ACB276117B0003B8162;
+			remoteInfo = TenElephants;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +121,9 @@
 		430F42302764BFE3001DE6BB /* MealsDataProviderStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsDataProviderStub.swift; sourceTree = "<group>"; };
 		430F423827672C45001DE6BB /* PreviewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCellView.swift; sourceTree = "<group>"; };
 		430F423A27676FD4001DE6BB /* HeaderCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionView.swift; sourceTree = "<group>"; };
+		4366076D27AA96ED00A467EC /* TenElephantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenElephantsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4366076F27AA96ED00A467EC /* TenElephantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenElephantsUITests.swift; sourceTree = "<group>"; };
+		4366077127AA96ED00A467EC /* TenElephantsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenElephantsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		43BEF2832761F68700E42C33 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
 		43BEF285276215C700E42C33 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		43BEF28A27628A5200E42C33 /* GenericCodingKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCodingKeys.swift; sourceTree = "<group>"; };
@@ -160,6 +172,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4366076A27AA96ED00A467EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -194,6 +213,7 @@
 			children = (
 				1FC26ACE276117B0003B8162 /* TenElephants */,
 				1FDE4ABE27623D98002879F8 /* Unit Tests */,
+				4366076E27AA96ED00A467EC /* TenElephantsUITests */,
 				1FC26ACD276117B0003B8162 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -203,6 +223,7 @@
 			children = (
 				1FC26ACC276117B0003B8162 /* TenElephants.app */,
 				1FDE4ABD27623D98002879F8 /* Unit Tests.xctest */,
+				4366076D27AA96ED00A467EC /* TenElephantsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -305,6 +326,15 @@
 			path = DataProvider;
 			sourceTree = "<group>";
 		};
+		4366076E27AA96ED00A467EC /* TenElephantsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4366076F27AA96ED00A467EC /* TenElephantsUITests.swift */,
+				4366077127AA96ED00A467EC /* TenElephantsUITestsLaunchTests.swift */,
+			);
+			path = TenElephantsUITests;
+			sourceTree = "<group>";
+		};
 		43BEF2822761F67200E42C33 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -390,6 +420,24 @@
 			productReference = 1FDE4ABD27623D98002879F8 /* Unit Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4366076C27AA96ED00A467EC /* TenElephantsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4366077727AA96ED00A467EC /* Build configuration list for PBXNativeTarget "TenElephantsUITests" */;
+			buildPhases = (
+				4366076927AA96ED00A467EC /* Sources */,
+				4366076A27AA96ED00A467EC /* Frameworks */,
+				4366076B27AA96ED00A467EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4366077427AA96ED00A467EC /* PBXTargetDependency */,
+			);
+			name = TenElephantsUITests;
+			productName = TenElephantsUITests;
+			productReference = 4366076D27AA96ED00A467EC /* TenElephantsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -404,6 +452,10 @@
 						CreatedOnToolsVersion = 13.1;
 					};
 					1FDE4ABC27623D98002879F8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1FC26ACB276117B0003B8162;
+					};
+					4366076C27AA96ED00A467EC = {
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 1FC26ACB276117B0003B8162;
 					};
@@ -424,6 +476,7 @@
 			targets = (
 				1FC26ACB276117B0003B8162 /* TenElephants */,
 				1FDE4ABC27623D98002879F8 /* Unit Tests */,
+				4366076C27AA96ED00A467EC /* TenElephantsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -449,6 +502,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1FDE4ABB27623D98002879F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4366076B27AA96ED00A467EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -520,6 +580,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4366076927AA96ED00A467EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4366077027AA96ED00A467EC /* TenElephantsUITests.swift in Sources */,
+				4366077227AA96ED00A467EC /* TenElephantsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -527,6 +596,11 @@
 			isa = PBXTargetDependency;
 			target = 1FC26ACB276117B0003B8162 /* TenElephants */;
 			targetProxy = 1FDE4AC127623D98002879F8 /* PBXContainerItemProxy */;
+		};
+		4366077427AA96ED00A467EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC26ACB276117B0003B8162 /* TenElephants */;
+			targetProxy = 4366077327AA96ED00A467EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -778,6 +852,48 @@
 			};
 			name = Release;
 		};
+		4366077527AA96ED00A467EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daria25D.TenElephantsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TenElephants;
+			};
+			name = Debug;
+		};
+		4366077627AA96ED00A467EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daria25D.TenElephantsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TenElephants;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -804,6 +920,15 @@
 			buildConfigurations = (
 				1FDE4AC327623D98002879F8 /* Debug */,
 				1FDE4AC427623D98002879F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4366077727AA96ED00A467EC /* Build configuration list for PBXNativeTarget "TenElephantsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4366077527AA96ED00A467EC /* Debug */,
+				4366077627AA96ED00A467EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
